@@ -1,0 +1,111 @@
+/* display: flex; */
+/* justify-content: */
+/* align-items */
+
+
+/* Header styles */
+h1 {
+    border: 5px solid black;
+}
+
+nav {
+    border: 5px solid black;
+}
+
+header {
+    border: 5px solid red;
+
+}
+
+/* display: flex; turns a container into a flex container. Its immediate children become rearranged. */
+
+/* If the elements we wanted to arrange didn't move, then we probably targeted the wrong  parent container. Or the element needs a bigger width. */
+
+ul {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+
+    list-style-type: none;
+    padding: 0;
+
+    width: 400px;
+}
+
+.top-bar {
+    border: 5px solid blue;
+
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+}
+
+/* MAIN STYLES */
+
+/* gallery */
+.gallery {
+    border: 5px solid red;
+
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+
+}
+
+/* gallery-entry */
+.gallery-entry {
+    border: 5px solid blue;
+
+}
+
+/* align section */
+.align {
+    border: 5px solid goldenrod;
+
+    min-height: 500px;
+
+    display: flex;
+
+    justify-content: end;
+
+    align-items: end;
+}
+
+.align-box {
+    border: 5px dotted black;
+
+    display: flex;
+}
+
+/* flex direction */
+
+.row {
+    border: 5px solid black;
+
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    border: 5px dashed black;
+
+    min-height: 300px;
+
+    display: flex;
+    flex-direction: column;
+
+    /* justify-content moves things along the main axis */
+    justify-content: center;
+
+    /* align-items moves things along the cross axis */
+    align-items: end;
+}
+
+body {
+    background-color: pink;
+}
